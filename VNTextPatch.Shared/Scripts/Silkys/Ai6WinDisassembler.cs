@@ -54,6 +54,7 @@ namespace VNTextPatch.Shared.Scripts.Silkys
                 { 0x19, "i" },      // msgid
                 { 0x1A, "a" },      // choice
                 { 0x1B, "b" },      // escape sequence
+                { 0x1D, ""},
                 { 0x32, "i" },      // ldc.i4
                 { 0x33, "s" },      // ldstr
                 { 0x34, "" },       // add
@@ -72,6 +73,10 @@ namespace VNTextPatch.Shared.Scripts.Silkys
                 { 0x41, "" },       // ge
                 { 0x42, "" },       // eq
                 { 0x43, "" },       // neq
+                { 0xFA, "" },
+                { 0xFB, "" },
+                { 0xFC, "" },
+                { 0xFD, "" },
                 { 0xFE, "" },
                 { 0xFF, "" }
             };
